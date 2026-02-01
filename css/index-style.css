@@ -1,3 +1,43 @@
-.button {
-  color: rgb(129, 97, 14);
+body {
+  background: url("../imgs/background-opt1.png");
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.header-buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.header-buttons li {
+  float: right;
+}
+
+.header-buttons li a {
+  display: block;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-buttons li a:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+#leftaava {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
