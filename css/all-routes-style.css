@@ -1,0 +1,80 @@
+body {
+  background: url("../imgs/background-opt1.png");
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.header-buttons {
+  list-style-type: none;
+  margin-top: 21px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-buttons li {
+  float: right;
+}
+
+.header-buttons li a {
+  display: block;
+  color: rgb(184, 103, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-buttons li a:hover {
+  background-color: rgb(184, 103, 11);
+  background-color: rgba(184, 103, 11, 0.5);
+  color: black;
+}
+
+#leftaava {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  text-align: left;
+  top: 7px;
+  left: 14px;
+  display: inline-block;
+  color: black;
+}
+
+#route-table {
+  width: fit-content;
+  text-align: center;
+  background-color: rgb(184, 103, 11);
+  background-color: rgba(184, 103, 11, 0.5);
+  padding: 10px 50px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+td {
+  text-align: left;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(175, 175, 175);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(175, 131, 80);
+}
