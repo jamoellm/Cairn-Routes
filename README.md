@@ -1,4 +1,4 @@
-# Aava's Kami Guidebook
+# Cairn Routes
 
 A fan-made website for compiling all community routes done in the game Cairn.
 
