@@ -23,9 +23,10 @@ async function getRandomRoute() {
     }
 
     // Navigate to the root directory
-    const subdomain = /:\/\/[^\/]+(.*)$/.exec(currentPage)[1];
-    const sublevels = (subdomain.match(/\//g) || []).length - 1;
-    const directoryNaviation = "/..".repeat(sublevels);
+    const subDomain = /:\/\/[^\/]+(.*)$/.exec(currentPage)[1];
+    const subLevels = subDomain.match(/\//g)
+    const subLevelsCount = Math.max(subLevels.length - 1, 0);
+    const directoryNaviation = "/..".repeat(subLevelsCount);
 
     window.location.href = directoryNaviation + randomPage
 }
