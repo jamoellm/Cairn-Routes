@@ -24,8 +24,6 @@ If you want to contribute a route that you don't see on the site, join [The Game
   * Be able to search for a route by name
 * Rate a route
   * Be able to give a thumbs up, thumbs down or maybe rate whether it was harder or easier than the given difficulty
-* Get a random route
-  * Press a button to get sent to a random route page
 * Suggested route
   * Have a button to take you to the next route the community suggests based on location and difficulty of the route you're on currently
 * Full map view
@@ -34,3 +32,4 @@ If you want to contribute a route that you don't see on the site, join [The Game
 ## Authors
 
 Pluxate
+jamoellm
